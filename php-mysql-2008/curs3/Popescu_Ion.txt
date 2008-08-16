@@ -1,0 +1,7 @@
+Nume: Popescu
+Prenume: Ion
+Data Nasterii: 17/8/1977
+Adresa: Starda Numarul
+Bloc Scara Apartament
+Orasul: Timisoara
+Tara: Romania

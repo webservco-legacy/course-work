@@ -1,0 +1,42 @@
+body{background:#CCCCCC;}
+#header{width:792px;
+height:90px;
+border:1px #666666 solid;
+margin:auto;
+background:#FFFFFF;
+text-align:center;
+font-size:20px;
+color:#666666;
+}
+#header p{padding-top:30px;}
+#container{
+background:#FFFFFF;
+width:792px;
+border:1px #666666 solid;
+margin:auto;
+margin-top:10px;
+height:600px;
+}
+#meniu{
+width:200px;
+height:590px;
+border-right:1px #666666 dashed;
+float:left;
+margin-top:5px;}
+#continut {
+width:575px;
+float:right;
+height:590px;
+margin-right:5px;
+}
+#continut p{ width:90%; margin:auto;
+background:#ffffff;
+border:1px #000000 solid;
+color:#666666;
+text-align:center;
+padding:10px;
+}
+#meniu ul{list-style-type:none; }
+#meniu a{text-decoration:none;
+color:#000000; font-weight:normal; font-size:14px;}
+#meniu a:hover{text-decoration:underline; }

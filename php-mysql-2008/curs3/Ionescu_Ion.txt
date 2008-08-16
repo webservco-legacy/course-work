@@ -1,0 +1,12 @@
+
+Nume:
+ 
+Prenume: 
+
+Data Nasterii: 
+
+Adresa: 
+
+Orasul: 
+
+Tara: 

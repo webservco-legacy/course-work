@@ -1,0 +1,7 @@
+
+Nume: Popescu
+Prenume: Mihai
+Data Nasterii: 1/1/1900
+Adresa:     sdfsdfsdfsdf
+Orasul: Jugoj
+Tara: Romania

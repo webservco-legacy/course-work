@@ -1,0 +1,7 @@
+
+Nume: Ionescu
+Prenume: Mihai
+Data Nasterii: 1/1/1900
+Adresa:     dfsdfsdfs
+Orasul: sdfsdfsd
+Tara: fsdfsdffdfdfdfdfd
