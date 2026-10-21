@@ -5,12 +5,12 @@ program Casa;
         var pret, suma, rest : integer;
         begin
              write ('Pretul produsului=') ; readln (pret);
-   	     write ('Suma platita de client='); readln (suma);
-      	     rest := suma - pret;
+         write ('Suma platita de client='); readln (suma);
+             rest := suma - pret;
              if suma < pret then writeln ('Suma platita este insufifienta!')
              else begin
                        writeln ('Rest = ', rest,' lei ');
-  	          end;
+              end;
              readln
         end.
 
