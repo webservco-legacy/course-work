@@ -1,8 +1,8 @@
 <?php
 function executa ($sql)
 {
-	$rez = mysql_query($sql) or die ('Eroare: '.mysql_error());
-	return $rez;
+    $rez = mysql_query($sql) or die ('Eroare: '.mysql_error());
+    return $rez;
 }
 function curata ($var)
 {

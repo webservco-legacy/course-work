@@ -14,38 +14,38 @@ e_admin();
 <body>
 <div id="header"><p>AVANTAJ ESHOP</p></div>
 <div id="container">
-	<div id="meniu">
-	<ul>
-	<li><a href='../index.php'>Index Admin</a></li>
-	<li><a href="../produse/adauga.php">Adauga un produs</a></li>
-	<li><a href="../produse/listare.php">Management produse</a></li>
-	<li><a href="adauga.php">Adauga o categorie</a></li>
-	<li><a href="listare.php">Management categorii</a></li>
-	<li><a href="../comenzi/listare.php">Vizualizare comenzi</a></li>
-	<hr noshade="noshade" width="90%" align="left"/>
-	<li><a href='../../index.php'>Vezi magazin</a></li>
-	<li><a href="../logout.php">Parasire Cont</a></li>
-	
-	</ul>
-	
-	</div>
-	<div id="continut">
-		<?php
-		if(is_numeric($_GET['id'])) {
-		  $date = mysql_fetch_assoc(executa("SELECT * FROM categorii WHERE cat_id='{$_GET['id']}'"));
-		  ?>
-		  	<form action="procesare.php" method="post">
-	<table>
-		<tr><td>Nume </td><td><input type="text" name="nume" value="<? echo $date['cat_nume']; ?>"></td></tr>
-		<tr><td>Descriere </td><td><textarea name="descriere" rows="8" cols="35"><? echo $date['cat_descriere']; ?></textarea></td></tr>
-		<tr><td colspan="2"><input type="hidden" name="id" value="<?php echo $_GET['id'];?>"><input type="submit" name="modifica" value="Modifica!"></td></tr>
-	</table>
-	</form>
-		  
-		  </form>
-		  <?
-		}
-		?>
+    <div id="meniu">
+    <ul>
+    <li><a href='../index.php'>Index Admin</a></li>
+    <li><a href="../produse/adauga.php">Adauga un produs</a></li>
+    <li><a href="../produse/listare.php">Management produse</a></li>
+    <li><a href="adauga.php">Adauga o categorie</a></li>
+    <li><a href="listare.php">Management categorii</a></li>
+    <li><a href="../comenzi/listare.php">Vizualizare comenzi</a></li>
+    <hr noshade="noshade" width="90%" align="left"/>
+    <li><a href='../../index.php'>Vezi magazin</a></li>
+    <li><a href="../logout.php">Parasire Cont</a></li>
+    
+    </ul>
+    
+    </div>
+    <div id="continut">
+        <?php
+        if(is_numeric($_GET['id'])) {
+          $date = mysql_fetch_assoc(executa("SELECT * FROM categorii WHERE cat_id='{$_GET['id']}'"));
+          ?>
+            <form action="procesare.php" method="post">
+    <table>
+        <tr><td>Nume </td><td><input type="text" name="nume" value="<? echo $date['cat_nume']; ?>"></td></tr>
+        <tr><td>Descriere </td><td><textarea name="descriere" rows="8" cols="35"><? echo $date['cat_descriere']; ?></textarea></td></tr>
+        <tr><td colspan="2"><input type="hidden" name="id" value="<?php echo $_GET['id'];?>"><input type="submit" name="modifica" value="Modifica!"></td></tr>
+    </table>
+    </form>
+          
+          </form>
+          <?
+        }
+        ?>
   </div>
 
 </div>

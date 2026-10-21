@@ -14,29 +14,29 @@ e_admin();
 <body>
 <div id="header"><p>AVANTAJ ESHOP</p></div>
 <div id="container">
-	<div id="meniu">
-	<ul>
-	<li><a href='../index.php'>Index Admin</a></li>
-	<li><a href="../produse/adauga.php">Adauga un produs</a></li>
-	<li><a href="../produse/listare.php">Management produse</a></li>
-	<li><a href="adauga.php">Adauga o categorie</a></li>
-	<li><a href="listare.php">Management categorii</a></li>
-	<li><a href="../comenzi/listare.php">Vizualizare comenzi</a></li>
-	<hr noshade="noshade" width="90%" align="left"/>
-	<li><a href='../../index.php'>Vezi magazin</a></li>
-	<li><a href="../logout.php">Parasire Cont</a></li>
-	
-	</ul>
-	
-	</div>
-	<div id="continut">
-	<form action="procesare.php" method="post">
-	<table>
-		<tr><td>Nume </td><td><input type="text" name="nume"></td></tr>
-		<tr><td>Descriere </td><td><textarea name="descriere" rows="8" cols="35"></textarea></td></tr>
-		<tr><td colspan="2"><input type="submit" name="adauga" value="Adauga!"></td></tr>
-	</table>
-	</form>
+    <div id="meniu">
+    <ul>
+    <li><a href='../index.php'>Index Admin</a></li>
+    <li><a href="../produse/adauga.php">Adauga un produs</a></li>
+    <li><a href="../produse/listare.php">Management produse</a></li>
+    <li><a href="adauga.php">Adauga o categorie</a></li>
+    <li><a href="listare.php">Management categorii</a></li>
+    <li><a href="../comenzi/listare.php">Vizualizare comenzi</a></li>
+    <hr noshade="noshade" width="90%" align="left"/>
+    <li><a href='../../index.php'>Vezi magazin</a></li>
+    <li><a href="../logout.php">Parasire Cont</a></li>
+    
+    </ul>
+    
+    </div>
+    <div id="continut">
+    <form action="procesare.php" method="post">
+    <table>
+        <tr><td>Nume </td><td><input type="text" name="nume"></td></tr>
+        <tr><td>Descriere </td><td><textarea name="descriere" rows="8" cols="35"></textarea></td></tr>
+        <tr><td colspan="2"><input type="submit" name="adauga" value="Adauga!"></td></tr>
+    </table>
+    </form>
   </div>
 
 </div>
