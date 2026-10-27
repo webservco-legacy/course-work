@@ -4,3 +4,5 @@
 # Binary files: no line-ending conversion
 *.exe binary
 *.pif binary
+*.EXE binary
+*.PIF binary
